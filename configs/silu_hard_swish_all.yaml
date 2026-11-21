@@ -1,0 +1,14 @@
+model: Qwen/Qwen2.5-1.5B-Instruct
+seed: 42
+max_samples: 100
+max_input_tokens: 1024
+max_new_tokens: 128
+temperature: 0.0
+top_p: 1.0
+batch_size: 1
+approximation: hard_swish
+layers: all
+strength: 1.0
+num_bins: 16
+domain: 4.0
+location: activation_function

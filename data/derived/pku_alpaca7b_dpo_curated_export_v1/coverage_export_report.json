@@ -1,0 +1,26 @@
+{
+  "old_approved": 144,
+  "additional_approved": 241,
+  "train_pairs": 385,
+  "holdout_reserved": 40,
+  "unclassified_skipped": 0,
+  "domain_counts": {
+    "illegal": 234,
+    "harmful": 127,
+    "cybercrime_intrusion": 83,
+    "chemical_biological": 33,
+    "copyright": 13,
+    "harassment_bullying": 32,
+    "misinformation_disinformation": 5
+  },
+  "attack_form_counts": {
+    "disguised_intent": 62,
+    "indirect_inquiry": 25,
+    "personal_justification": 121,
+    "direct_request": 147,
+    "third_party_scenario": 19,
+    "hypothetical_research": 5,
+    "provocation_offense": 6
+  },
+  "note": "Coverage counts are not a claim of all attack types. Keep original holdout and check semantic near-duplicates."
+}

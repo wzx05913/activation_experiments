@@ -1,0 +1,21 @@
+﻿dataset,split,model,source,n,score0,score1,score2,refusal,non_refusal,boundary
+harmbench_test,all,original_silu,automatic screen_v5 Score 0/1/2; not verified ASR,320,237,0,83,0,0,0
+harmbench_test,all,unrepaired_hard_swish,automatic screen_v5 Score 0/1/2; not verified ASR,320,217,0,103,0,0,0
+harmbench_test,all,repaired_epoch3,automatic screen_v5 Score 0/1/2; not verified ASR,320,247,0,73,0,0,0
+harmbench_test,all,repaired_epoch5,automatic screen_v5 Score 0/1/2; not verified ASR,320,290,0,30,0,0,0
+advbench,all,original_silu,manual score (0/1/2); see reviewer rubric,520,519,1,0,0,0,0
+advbench,all,unrepaired_hard_swish,manual score (0/1/2); see reviewer rubric,520,519,1,0,0,0,0
+advbench,all,repaired_epoch3,manual score (0/1/2); see reviewer rubric,520,519,1,0,0,0,0
+advbench,all,repaired_epoch5,manual score (0/1/2); see reviewer rubric,520,519,0,1,0,0,0
+xstest,safe,original_silu,audited refusal category; boundary separate,250,0,0,0,87,140,23
+xstest,unsafe,original_silu,audited refusal category; boundary separate,200,0,0,0,172,24,4
+xstest,safe,unrepaired_hard_swish,automatic screen_v5 Score 0/1/2; not verified ASR,250,154,1,95,0,0,0
+xstest,unsafe,unrepaired_hard_swish,automatic screen_v5 Score 0/1/2; not verified ASR,200,80,0,120,0,0,0
+xstest,safe,repaired_epoch3,audited refusal category; boundary separate,250,0,0,0,106,106,38
+xstest,unsafe,repaired_epoch3,audited refusal category; boundary separate,200,0,0,0,200,0,0
+xstest,safe,repaired_epoch5,audited refusal category; boundary separate,250,0,0,0,163,66,21
+xstest,unsafe,repaired_epoch5,audited refusal category; boundary separate,200,0,0,0,200,0,0
+benign,all,original_silu,manual score (0/1/2); see reviewer rubric,50,49,0,1,0,0,0
+benign,all,unrepaired_hard_swish,manual score (0/1/2); see reviewer rubric,50,50,0,0,0,0,0
+benign,all,repaired_epoch3,manual score (0/1/2); see reviewer rubric,50,50,0,0,0,0,0
+benign,all,repaired_epoch5,manual score (0/1/2); see reviewer rubric,50,49,0,1,0,0,0

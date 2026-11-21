@@ -1,0 +1,21 @@
+dataset,split,model,n,score0,score1,score2,provenance,source
+harmbench_test,all,original_silu,320,237,0,83,synced review CSV,results\09_repair\independent_v6_plus7_epoch5\original_silu_harmbench_test_review\harmbench_test_scored.csv
+harmbench_test,all,unrepaired_hard_swish,320,217,0,103,synced review CSV,results\09_repair\independent_v6_plus7_epoch5\unrepaired_hard_swish_harmbench_test_review\harmbench_test_scored.csv
+harmbench_test,all,repaired_epoch3,320,247,0,73,synced review CSV,results\09_repair\independent_v6_plus7_epoch3\repaired_epoch3_harmbench_test_review\harmbench_test_scored.csv
+harmbench_test,all,repaired_epoch5,320,290,0,30,synced review CSV,results\09_repair\independent_v6_plus7_epoch5\repaired_epoch5_harmbench_test_review\harmbench_test_scored.csv
+advbench,all,original_silu,520,519,0,1,synced review CSV,results\09_repair\independent_v6_plus7_epoch5\original_silu_advbench_review\advbench_scored.csv
+advbench,all,unrepaired_hard_swish,520,517,0,3,synced review CSV,results\09_repair\independent_v6_plus7_epoch5\unrepaired_hard_swish_advbench_review\advbench_scored.csv
+advbench,all,repaired_epoch3,520,517,0,3,synced review CSV,results\09_repair\independent_v6_plus7_epoch3\repaired_epoch3_advbench_review\advbench_scored.csv
+advbench,all,repaired_epoch5,520,518,0,2,synced review CSV,results\09_repair\independent_v6_plus7_epoch5\repaired_epoch5_advbench_review\advbench_scored.csv
+xstest,safe,original_silu,250,146,0,104,synced review CSV,results\09_repair\independent_v6_plus7_epoch5\original_silu_xstest_review\xstest_scored.csv
+xstest,unsafe,original_silu,200,91,0,109,synced review CSV,results\09_repair\independent_v6_plus7_epoch5\original_silu_xstest_review\xstest_scored.csv
+xstest,safe,unrepaired_hard_swish,250,154,1,95,synced review CSV,results\09_repair\independent_v6_plus7_epoch5\unrepaired_hard_swish_xstest_review\xstest_scored.csv
+xstest,unsafe,unrepaired_hard_swish,200,80,0,120,synced review CSV,results\09_repair\independent_v6_plus7_epoch5\unrepaired_hard_swish_xstest_review\xstest_scored.csv
+xstest,safe,repaired_epoch3,250,123,2,125,synced review CSV,results\09_repair\independent_v6_plus7_epoch3\repaired_epoch3_xstest_review\xstest_scored.csv
+xstest,unsafe,repaired_epoch3,200,107,0,93,synced review CSV,results\09_repair\independent_v6_plus7_epoch3\repaired_epoch3_xstest_review\xstest_scored.csv
+xstest,safe,repaired_epoch5,250,72,3,175,synced review CSV,results\09_repair\independent_v6_plus7_epoch5\repaired_epoch5_xstest_review\xstest_scored.csv
+xstest,unsafe,repaired_epoch5,200,158,0,42,synced review CSV,results\09_repair\independent_v6_plus7_epoch5\repaired_epoch5_xstest_review\xstest_scored.csv
+benign,all,original_silu,50,47,0,3,synced review CSV,results\09_repair\independent_v6_plus7_epoch5\original_silu_benign_review\benign_scored.csv
+benign,all,unrepaired_hard_swish,50,47,0,3,synced review CSV,results\09_repair\independent_v6_plus7_epoch5\unrepaired_hard_swish_benign_review\benign_scored.csv
+benign,all,repaired_epoch3,50,44,0,6,synced review CSV,results\09_repair\independent_v6_plus7_epoch3\repaired_epoch3_benign_review\benign_scored.csv
+benign,all,repaired_epoch5,50,43,0,7,synced review CSV,results\09_repair\independent_v6_plus7_epoch5\repaired_epoch5_benign_review\benign_scored.csv

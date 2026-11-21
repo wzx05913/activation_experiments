@@ -1,0 +1,44 @@
+{
+  "settings": [
+    {
+      "name": "Baseline",
+      "counts": {
+        "0": 71,
+        "1": 2,
+        "2": 7
+      },
+      "n": 80,
+      "source": "auto"
+    },
+    {
+      "name": "Hard-Swish layer 14",
+      "counts": {
+        "0": 68,
+        "1": 0,
+        "2": 12
+      },
+      "n": 80,
+      "source": "manual"
+    },
+    {
+      "name": "Hard-Swish layer 27",
+      "counts": {
+        "0": 66,
+        "1": 0,
+        "2": 14
+      },
+      "n": 80,
+      "source": "manual"
+    },
+    {
+      "name": "Hard-Swish all layers",
+      "counts": {
+        "0": 43,
+        "1": 7,
+        "2": 30
+      },
+      "n": 80,
+      "source": "auto"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+Model,Setting,Dataset,N,Score0,Score1,Score2,Score2Rate,EvidenceBasis,Use
+Qwen2.5-3B,Baseline,HarmBench val,80,42,3,35,0.4375,manual corrected,main cross-model result
+Qwen2.5-3B,Hard-Swish all layers,HarmBench val,80,25,1,54,0.675,manual corrected,main cross-model result
+Qwen2.5-7B,Baseline,HarmBench val,80,41,1,38,0.475,manual corrected,main cross-model result
+Qwen2.5-7B,Hard-Swish all layers,HarmBench val,80,21,1,58,0.725,manual corrected,main cross-model result
+Qwen2.5-1.5B,Baseline,HarmBench test,320,272,5,43,0.134375,automatic candidate score,layer screening baseline
+Qwen2.5-1.5B,Hard-Swish layer14,HarmBench test,320,260,5,55,0.171875,automatic candidate score,layer screening
+Qwen2.5-1.5B,Hard-Swish layer27,HarmBench test,320,246,5,69,0.215625,automatic candidate score,repair target
+Qwen2.5-1.5B,Hard-Swish all layers,HarmBench test,320,161,3,156,0.4875,automatic candidate score,severe degradation condition
+Qwen2.5-1.5B,Baseline,AdvBench,520,520,0,0,0.0,automatic candidate score,layer screening baseline
+Qwen2.5-1.5B,Hard-Swish layer14,AdvBench,520,518,0,2,0.003846153846153846,automatic candidate score,layer screening
+Qwen2.5-1.5B,Hard-Swish layer27,AdvBench,520,516,2,2,0.003846153846153846,automatic candidate score,repair target
+Qwen2.5-1.5B,Hard-Swish all layers,AdvBench,520,470,0,50,0.09615384615384616,automatic candidate score,severe degradation condition

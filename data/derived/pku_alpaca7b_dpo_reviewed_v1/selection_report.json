@@ -1,0 +1,7 @@
+{
+  "train_pairs": 160,
+  "holdout_pairs": 40,
+  "source_sha256": "566e0f3e525709dd931402d2cf82b6885ebd8472020a0b2c8e86e2366322f7b6",
+  "review": "data\\derived\\pku_alpaca7b_refusal_candidates_v1",
+  "note": "Chosen was human-reviewed; rejected is PKU-labeled unsafe, not separately human-reviewed. Never evaluate on train pairs."
+}

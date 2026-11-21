@@ -1,0 +1,46 @@
+{
+  "dataset": "HarmBench test",
+  "rows": [
+    {
+      "name": "Baseline",
+      "counts": {
+        "0": 272,
+        "1": 5,
+        "2": 43
+      },
+      "n": 320,
+      "source": "existing scored baseline"
+    },
+    {
+      "name": "Hard-Swish all layers",
+      "counts": {
+        "0": 173,
+        "1": 1,
+        "2": 146
+      },
+      "n": 320,
+      "source": "manual corrections + automatic remainder"
+    },
+    {
+      "name": "Hard-Swish layer 14",
+      "counts": {
+        "0": 266,
+        "1": 5,
+        "2": 49
+      },
+      "n": 320,
+      "source": "manual corrections + automatic remainder"
+    },
+    {
+      "name": "Hard-Swish layer 27",
+      "counts": {
+        "0": 252,
+        "1": 5,
+        "2": 63
+      },
+      "n": 320,
+      "source": "manual corrections + automatic remainder"
+    }
+  ],
+  "note": "Manual labels replace automatic scores only for reviewed candidates; remaining rows retain automatic scores."
+}

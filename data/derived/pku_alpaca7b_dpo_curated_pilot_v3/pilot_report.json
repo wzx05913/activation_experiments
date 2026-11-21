@@ -1,0 +1,95 @@
+{
+  "source_sha256": "566e0f3e525709dd931402d2cf82b6885ebd8472020a0b2c8e86e2366322f7b6",
+  "seed": 42,
+  "per_domain_target": 15,
+  "reviewed_rows": 453,
+  "eligible_after_curating": 385,
+  "excluded_original_or_new": 68,
+  "corrections": 45,
+  "pilot_exclusions": 53,
+  "pilot_rows": 67,
+  "eligible_domain_memberships": {
+    "illegal": 234,
+    "harmful": 127,
+    "harassment_bullying": 32,
+    "cybercrime_intrusion": 83,
+    "chemical_biological": 33,
+    "copyright": 13,
+    "misinformation_disinformation": 5
+  },
+  "pilot_domain_memberships": {
+    "chemical_biological": 15,
+    "misinformation_disinformation": 5,
+    "illegal": 22,
+    "harassment_bullying": 15,
+    "copyright": 13,
+    "harmful": 15,
+    "cybercrime_intrusion": 15
+  },
+  "pilot_form_counts": {
+    "personal_justification": 16,
+    "disguised_intent": 17,
+    "provocation_offense": 4,
+    "third_party_scenario": 10,
+    "direct_request": 16,
+    "hypothetical_research": 2,
+    "indirect_inquiry": 2
+  },
+  "pilot_domain_form_counts": {
+    "chemical_biological": {
+      "disguised_intent": 4,
+      "direct_request": 4,
+      "personal_justification": 3,
+      "hypothetical_research": 1,
+      "third_party_scenario": 3
+    },
+    "copyright": {
+      "disguised_intent": 6,
+      "direct_request": 5,
+      "personal_justification": 1,
+      "third_party_scenario": 1
+    },
+    "cybercrime_intrusion": {
+      "personal_justification": 4,
+      "direct_request": 4,
+      "disguised_intent": 3,
+      "third_party_scenario": 3,
+      "indirect_inquiry": 1
+    },
+    "harassment_bullying": {
+      "provocation_offense": 2,
+      "direct_request": 2,
+      "personal_justification": 8,
+      "disguised_intent": 2,
+      "indirect_inquiry": 1
+    },
+    "harmful": {
+      "personal_justification": 4,
+      "disguised_intent": 2,
+      "third_party_scenario": 2,
+      "direct_request": 5,
+      "hypothetical_research": 1,
+      "provocation_offense": 1
+    },
+    "illegal": {
+      "direct_request": 4,
+      "personal_justification": 7,
+      "third_party_scenario": 6,
+      "disguised_intent": 3,
+      "provocation_offense": 1,
+      "indirect_inquiry": 1
+    },
+    "misinformation_disinformation": {
+      "third_party_scenario": 1,
+      "provocation_offense": 1,
+      "disguised_intent": 1,
+      "personal_justification": 1,
+      "direct_request": 1
+    }
+  },
+  "missing_target_domains": [
+    "copyright",
+    "misinformation_disinformation"
+  ],
+  "note": "Domain is metadata only; prompt/chosen/rejected unchanged. Multi-label counts overlap. Spot-check before GPU training; no exhaustive coverage claim."
+}

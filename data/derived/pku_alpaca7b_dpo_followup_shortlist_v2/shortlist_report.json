@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "base_train_pairs": 67,
+  "holdout_pairs": 40,
+  "eligible_unused": 304,
+  "requested": {
+    "cybercrime_intrusion": 12,
+    "chemical_biological": 8,
+    "illegal_email_fraud": 4,
+    "misinformation_disinformation": 8,
+    "copyright": 3
+  },
+  "selected": {
+    "cybercrime_intrusion": 12,
+    "chemical_biological": 8,
+    "illegal_email_fraud": 2
+  },
+  "shortfalls": {
+    "illegal_email_fraud": 2,
+    "misinformation_disinformation": 8,
+    "copyright": 3
+  },
+  "note": "Review-only shortlist, not a training file. Recheck chosen quality, subtopics, and semantic evaluation overlap before export."
+}

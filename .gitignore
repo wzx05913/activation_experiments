@@ -1,0 +1,17 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.cache/
+
+# Downloaded models and generated experiment artifacts
+models/
+results/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Logs and local secrets
+.env

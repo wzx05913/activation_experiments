@@ -1,0 +1,16 @@
+{
+  "source": "PKU-Alignment/PKU-SafeRLHF:alpaca-7b:train",
+  "source_sha256": "566e0f3e525709dd931402d2cf82b6885ebd8472020a0b2c8e86e2366322f7b6",
+  "seed": 42,
+  "eligible": 267,
+  "train_candidates": 160,
+  "holdout_candidates": 40,
+  "excluded": {
+    "not_one_safe_one_unsafe": 23649,
+    "no_short_clean_refusal": 3466,
+    "duplicate": 7,
+    "empty": 2,
+    "unsafe_response_not_severe": 2
+  },
+  "note": "Candidates only: unsafe response labels do not establish harmful prompts; review both yes/no columns before export."
+}

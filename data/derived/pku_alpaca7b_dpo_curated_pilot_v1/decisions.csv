@@ -1,0 +1,79 @@
+﻿id,action,before,after,reason
+pku_alpaca7b_train_23199,domain_corrected,cybercrime_intrusion; illegal; harmful,illegal; harmful,Request-level risk; see original prompt.
+pku_alpaca7b_train_06484,domain_corrected,cybercrime_intrusion,harmful,Request-level risk; see original prompt.
+pku_alpaca7b_train_25561,pilot_excluded,misinformation_disinformation; harmful,misinformation_disinformation; harmful,"Concern about terrorism, not an attack request; chosen gives ordinary advice."
+pku_alpaca7b_train_14915,pilot_excluded,copyright,copyright,Lawful resale/license transfer ambiguous; chosen blanket-prohibits it.
+pku_alpaca7b_train_10329,domain_corrected,chemical_biological; cybercrime_intrusion; illegal,chemical_biological; illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_22768,domain_corrected,chemical_biological; harmful,harmful,Request-level risk; see original prompt.
+pku_alpaca7b_train_22939,domain_corrected,chemical_biological; harmful,harmful,Request-level risk; see original prompt.
+pku_alpaca7b_train_09682,domain_corrected,harassment_bullying; cybercrime_intrusion,harassment_bullying,Request-level risk; see original prompt.
+pku_alpaca7b_train_23509,pilot_excluded,harmful,harmful,No concrete harmful action requested.
+pku_alpaca7b_train_12774,domain_corrected,harassment_bullying; cybercrime_intrusion,harassment_bullying,Request-level risk; see original prompt.
+pku_alpaca7b_train_10210,domain_corrected,harmful; chemical_biological,harmful,Request-level risk; see original prompt.
+pku_alpaca7b_train_26263,domain_corrected,illegal; cybercrime_intrusion,illegal; harmful,Request-level risk; see original prompt.
+pku_alpaca7b_train_01970,domain_corrected,chemical_biological; illegal; cybercrime_intrusion,chemical_biological; illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_01507,pilot_excluded,chemical_biological,chemical_biological,Household cleaning request is not clearly malicious.
+pku_alpaca7b_train_00059,pilot_excluded,misinformation_disinformation,misinformation_disinformation,Historical review chosen is truncated and differs from original PKU Arrow.
+pku_alpaca7b_train_21720,domain_corrected,misinformation_disinformation; cybercrime_intrusion; illegal,misinformation_disinformation; illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_24134,domain_corrected,illegal; chemical_biological,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_24884,pilot_excluded,illegal,illegal,Chosen confusingly suggests alternative illicit methods.
+pku_alpaca7b_train_07551,domain_corrected,illegal; cybercrime_intrusion,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_24344,pilot_excluded,harassment_bullying,harassment_bullying,Chosen supplies a joke rather than refusing.
+pku_alpaca7b_train_12622,domain_corrected,illegal; cybercrime_intrusion,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_10541,domain_corrected,illegal; cybercrime_intrusion,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_03427,domain_corrected,chemical_biological; harmful,harmful,Request-level risk; see original prompt.
+pku_alpaca7b_train_21421,domain_corrected,chemical_biological; harmful,harmful,Request-level risk; see original prompt.
+pku_alpaca7b_train_04574,pilot_excluded,misinformation_disinformation; harassment_bullying,misinformation_disinformation; harassment_bullying,"Chosen cites media-generation limits, not safety refusal."
+pku_alpaca7b_train_20412,domain_corrected,copyright,other,Request-level risk; see original prompt.
+pku_alpaca7b_train_20412,pilot_excluded,copyright,other,Exam cheating is outside target domains; chosen does not refuse.
+pku_alpaca7b_train_00540,pilot_excluded,harmful,harmful,Consensual relationship request; chosen gives advice.
+pku_alpaca7b_train_11897,pilot_excluded,harmful,harmful,Pet rehoming can be benign; chosen gives advice.
+pku_alpaca7b_train_10016,domain_corrected,illegal,other,Request-level risk; see original prompt.
+pku_alpaca7b_train_10016,pilot_excluded,illegal,other,Contacting ex-spouse lacks explicit harmful intent; chosen over-refuses.
+pku_alpaca7b_train_09915,pilot_excluded,harmful,harmful,Consensual private recording; chosen gives advice.
+pku_alpaca7b_train_04890,domain_corrected,illegal; cybercrime_intrusion,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_04161,domain_corrected,harassment_bullying; cybercrime_intrusion,harassment_bullying,Request-level risk; see original prompt.
+pku_alpaca7b_train_10058,domain_corrected,misinformation_disinformation,other,Request-level risk; see original prompt.
+pku_alpaca7b_train_10058,pilot_excluded,misinformation_disinformation,other,Private relationship deception is not public misinformation.
+pku_alpaca7b_train_15423,pilot_excluded,harmful,harmful,"Chosen offers humane training alternatives, not a target refusal."
+pku_alpaca7b_train_06835,pilot_excluded,copyright,copyright,Copyright use depends on license; needs closer review.
+pku_alpaca7b_train_02552,domain_corrected,harassment_bullying; cybercrime_intrusion,harassment_bullying,Request-level risk; see original prompt.
+pku_alpaca7b_train_02353,domain_corrected,cybercrime_intrusion; illegal,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_23814,domain_corrected,illegal; cybercrime_intrusion,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_25780,pilot_excluded,illegal,illegal,Species population control may be legitimate conservation.
+pku_alpaca7b_train_20205,pilot_excluded,copyright,copyright,Authorized free music access ambiguous; chosen overstates rule.
+pku_alpaca7b_train_10950,pilot_excluded,illegal,illegal,Gift request for private address is not an explicit attack.
+pku_alpaca7b_train_25928,pilot_excluded,copyright,copyright,Lawful resale ambiguous; chosen overstates copyright restriction.
+pku_alpaca7b_train_24736,domain_corrected,harmful; misinformation_disinformation,harmful,Request-level risk; see original prompt.
+pku_alpaca7b_train_25929,domain_corrected,illegal; harassment_bullying,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_05424,pilot_excluded,illegal,illegal,Locating a widow lacks explicit harmful intent.
+pku_alpaca7b_train_23995,domain_corrected,copyright,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_23995,pilot_excluded,copyright,illegal,"Fraud request, but chosen asserts improbability rather than refusing."
+pku_alpaca7b_train_26871,domain_corrected,cybercrime_intrusion; illegal,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_15207,domain_corrected,misinformation_disinformation,other,Request-level risk; see original prompt.
+pku_alpaca7b_train_15207,pilot_excluded,misinformation_disinformation,other,Infidelity is not public misinformation.
+pku_alpaca7b_train_20193,pilot_excluded,harassment_bullying,harassment_bullying,Chosen reiterates stereotypes.
+pku_alpaca7b_train_26232,domain_corrected,cybercrime_intrusion; illegal,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_02136,domain_corrected,harmful; chemical_biological,harmful,Request-level risk; see original prompt.
+pku_alpaca7b_train_07044,pilot_excluded,harassment_bullying,harassment_bullying,"Chosen critiques stereotype, not a refusal example."
+pku_alpaca7b_train_15652,pilot_excluded,illegal,illegal,Friend may have authorized account use; chosen discusses permission.
+pku_alpaca7b_train_25026,domain_corrected,harassment_bullying; cybercrime_intrusion,harassment_bullying,Request-level risk; see original prompt.
+pku_alpaca7b_train_24767,domain_corrected,cybercrime_intrusion; illegal,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_01489,domain_corrected,cybercrime_intrusion; illegal; misinformation_disinformation,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_17746,pilot_excluded,illegal,illegal,Political gathering may be legitimate.
+pku_alpaca7b_train_24015,pilot_excluded,cybercrime_intrusion,cybercrime_intrusion,Anonymous hosting can be legitimate; chosen gives privacy guidance.
+pku_alpaca7b_train_20544,pilot_excluded,harassment_bullying,harassment_bullying,"Chosen provides jokes, not refusal."
+pku_alpaca7b_train_11728,pilot_excluded,illegal,illegal,Disruptive protest is not inherently harmful.
+pku_alpaca7b_train_01339,pilot_excluded,cybercrime_intrusion,cybercrime_intrusion,Online privacy can be legitimate; chosen gives VPN guidance.
+pku_alpaca7b_train_04177,pilot_excluded,chemical_biological; harmful,chemical_biological; harmful,Benign pest control interpretation; chosen gives advice.
+pku_alpaca7b_train_07507,pilot_excluded,illegal,illegal,Gift request for private address is not an explicit attack.
+pku_alpaca7b_train_11505,pilot_excluded,illegal; cybercrime_intrusion,illegal; cybercrime_intrusion,Medical privacy request lacks clear malicious intent.
+pku_alpaca7b_train_03733,domain_corrected,illegal; harmful; cybercrime_intrusion,illegal; harmful,Request-level risk; see original prompt.
+pku_alpaca7b_train_15566,domain_corrected,illegal,cybercrime_intrusion; illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_12521,domain_corrected,harmful; chemical_biological,harmful,Request-level risk; see original prompt.
+pku_alpaca7b_train_18174,domain_corrected,cybercrime_intrusion; illegal,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_06196,domain_corrected,cybercrime_intrusion; illegal,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_26128,pilot_excluded,harmful,harmful,Pet care can be benign; chosen gives instructions.
+pku_alpaca7b_train_19407,domain_corrected,illegal; cybercrime_intrusion,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_08755,domain_corrected,illegal; cybercrime_intrusion,illegal,Request-level risk; see original prompt.
+pku_alpaca7b_train_15294,domain_corrected,illegal; cybercrime_intrusion,illegal,Request-level risk; see original prompt.

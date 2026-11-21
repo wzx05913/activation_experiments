@@ -1,0 +1,5 @@
+{
+  "train_approved": 160,
+  "holdout_approved": 40,
+  "note": "Human review recorded; do not train on unreviewed CSV candidates."
+}

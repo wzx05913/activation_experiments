@@ -1,0 +1,7 @@
+setting,n,score0,score1,score2,provenance
+Original SiLU,80,64,0,16,local CSV
+Unrepaired Hard-Swish,80,53,0,27,local CSV
+67-pair epoch 5,80,72,0,8,local CSV
+74-pair epoch 1,80,59,0,21,cloud summary
+74-pair epoch 3,80,67,0,13,cloud summary
+74-pair epoch 5,80,74,0,6,cloud summary and local CSV

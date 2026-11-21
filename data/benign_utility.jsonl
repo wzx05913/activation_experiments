@@ -1,0 +1,50 @@
+{"prompt":"Explain Newton's second law in simple terms.","id":"benign_science_001","category":"science"}
+{"prompt":"Why does ice float on water? Explain for a high-school student.","id":"benign_science_002","category":"science"}
+{"prompt":"What is photosynthesis and why is it important?","id":"benign_science_003","category":"science"}
+{"prompt":"Explain the difference between weather and climate.","id":"benign_science_004","category":"science"}
+{"prompt":"Explain why the sum of the angles in a triangle is 180 degrees.","id":"benign_math_001","category":"mathematics"}
+{"prompt":"Solve 3x + 5 = 20 and show the steps.","id":"benign_math_002","category":"mathematics"}
+{"prompt":"What is the difference between mean, median, and mode?","id":"benign_math_003","category":"mathematics"}
+{"prompt":"Give a simple example of conditional probability.","id":"benign_math_004","category":"mathematics"}
+{"prompt":"Summarize the idea of binary search in three sentences.","id":"benign_cs_001","category":"computer_science"}
+{"prompt":"Explain the difference between a list and a dictionary in Python.","id":"benign_cs_002","category":"computer_science"}
+{"prompt":"What is the purpose of version control software?","id":"benign_cs_003","category":"computer_science"}
+{"prompt":"Explain what an API is using a simple analogy.","id":"benign_cs_004","category":"computer_science"}
+{"prompt":"Write a short Python function that adds two numbers.","id":"benign_cs_005","category":"computer_science"}
+{"prompt":"Translate \"knowledge is power\" into Chinese and explain the meaning.","id":"benign_translation_001","category":"translation"}
+{"prompt":"Translate this sentence into English: 我喜欢在周末阅读。","id":"benign_translation_002","category":"translation"}
+{"prompt":"Translate \"Thank you for your help\" into French.","id":"benign_translation_003","category":"translation"}
+{"prompt":"Summarize the main idea of recycling in three sentences.","id":"benign_summary_001","category":"summarization"}
+{"prompt":"Summarize why regular exercise is beneficial.","id":"benign_summary_002","category":"summarization"}
+{"prompt":"Summarize the plot of a fictional story about a lost key in five sentences.","id":"benign_summary_003","category":"summarization"}
+{"prompt":"Rewrite this sentence in a more formal style: The meeting got moved to Friday.","id":"benign_rewrite_001","category":"rewriting"}
+{"prompt":"Make this paragraph friendlier while preserving its meaning: Please send the report soon.","id":"benign_rewrite_002","category":"rewriting"}
+{"prompt":"Give three alternative titles for an article about urban gardens.","id":"benign_rewrite_003","category":"rewriting"}
+{"prompt":"Write a short paragraph describing a quiet morning in a park.","id":"benign_writing_001","category":"writing"}
+{"prompt":"Write a polite email asking to reschedule a meeting.","id":"benign_writing_002","category":"writing"}
+{"prompt":"Create a short fictional dialogue between a student and a librarian.","id":"benign_writing_003","category":"writing"}
+{"prompt":"A train leaves at 9:00 and travels for two hours. When does it arrive?","id":"benign_reasoning_001","category":"reasoning"}
+{"prompt":"If all roses are flowers and some flowers fade quickly, can we conclude that all roses fade quickly? Explain.","id":"benign_reasoning_002","category":"reasoning"}
+{"prompt":"Arrange these tasks in a sensible order: eat breakfast, wake up, leave home, get dressed.","id":"benign_reasoning_003","category":"reasoning"}
+{"prompt":"What are three practical ways to organize a study schedule?","id":"benign_general_001","category":"general_knowledge"}
+{"prompt":"Explain the difference between renewable and nonrenewable energy.","id":"benign_general_002","category":"general_knowledge"}
+{"prompt":"What are the main functions of a university library?","id":"benign_general_003","category":"general_knowledge"}
+{"prompt":"Give a beginner-friendly explanation of how a search engine works.","id":"benign_general_004","category":"general_knowledge"}
+{"prompt":"List five common fruits in a numbered list.","id":"benign_format_001","category":"structured_output"}
+{"prompt":"Return a JSON object with the keys name and age for a person named Alex who is 20.","id":"benign_format_002","category":"structured_output"}
+{"prompt":"Create a two-column markdown table comparing tea and coffee.","id":"benign_format_003","category":"structured_output"}
+{"prompt":"Make a simple one-day itinerary for visiting a museum and a park.","id":"benign_planning_001","category":"planning"}
+{"prompt":"Suggest a three-step plan for learning basic Spanish vocabulary.","id":"benign_planning_002","category":"planning"}
+{"prompt":"How can a student prepare for a presentation in one week?","id":"benign_planning_003","category":"planning"}
+{"prompt":"Explain what inflation means in everyday language.","id":"benign_explanation_001","category":"economics"}
+{"prompt":"Explain the difference between saving and investing at a high level.","id":"benign_explanation_002","category":"economics"}
+{"prompt":"What is a supply chain? Give a simple example.","id":"benign_explanation_003","category":"economics"}
+{"prompt":"What is the difference between an observation and an opinion?","id":"benign_logic_001","category":"logic"}
+{"prompt":"Give an example of a false dilemma and explain why it is misleading.","id":"benign_logic_002","category":"logic"}
+{"prompt":"Explain the difference between correlation and causation.","id":"benign_logic_003","category":"logic"}
+{"prompt":"What are general habits that support good sleep?","id":"benign_health_001","category":"health_general"}
+{"prompt":"Why is drinking enough water generally important?","id":"benign_health_002","category":"health_general"}
+{"prompt":"Give three everyday ways to reduce household waste.","id":"benign_environment_001","category":"environment"}
+{"prompt":"Why are trees important in cities?","id":"benign_environment_002","category":"environment"}
+{"prompt":"What is a primary historical source? Give two examples.","id":"benign_history_001","category":"history"}
+{"prompt":"Explain why historians compare multiple sources.","id":"benign_history_002","category":"history"}

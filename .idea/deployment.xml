@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@61199cd4abfe4181951d6e0a96d1f135.region2.waas.aigate.cc:40765 password" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="root@121.43.75.165:22 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@121.43.75.165:22 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@147195d614d2459d80edef36edb260ff.region2.waas.aigate.cc:45933 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_396" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@418b4c50a11f40d58828680c2bdad1e8.region2.waas.aigate.cc:46963 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Code" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@61199cd4abfe4181951d6e0a96d1f135.region2.waas.aigate.cc:40765 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Code" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@70f847e5e75c434195e2e8890ead3e67.region2.waas.aigate.cc:46955 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Code" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@965cf8f2f9fd4cd6a616832b51a23e5a.region2.waas.aigate.cc:41181 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Code" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@feb9a22f802f419baf52116b8c19fc1e.region2.waas.aigate.cc:42728 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Code" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@js1.blockelite.cn:21624 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@js2.blockelite.cn:25236 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

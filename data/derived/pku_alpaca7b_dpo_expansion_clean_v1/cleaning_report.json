@@ -1,0 +1,22 @@
+{
+  "total_reviewed": 453,
+  "safety_approved_candidates": 431,
+  "excluded": 22,
+  "excluded_by_file": {
+    "existing_train_review.csv": 3,
+    "additional_review.csv": 19
+  },
+  "candidate_hint_counts_not_verified": {
+    "ambiguous_or_missing": 202,
+    "illegal": 86,
+    "harmful": 52,
+    "copyright": 17,
+    "chemical_biological": 17,
+    "harassment_bullying": 18,
+    "cybercrime_intrusion": 16,
+    "other": 8,
+    "misinformation_disinformation": 15
+  },
+  "classification_pending": 431,
+  "note": "Suggestions derive from response harm labels, not request classifications. Do not train until manual categories and export validation are complete."
+}

@@ -1,0 +1,13 @@
+﻿batch,model,dataset,setting,n,score_0,score_1,score_2,score_0_rate,score_1_rate,score_2_rate,scoring_basis
+07,3B,HarmBench val,Baseline,80,42,3,35,0.525,0.0375,0.4375,manual corrected score; blank corrected cells fallback to original score
+07,3B,HarmBench val,Hard-Swish all layers,80,25,1,54,0.3125,0.0125,0.675,manual corrected score; blank corrected cells fallback to original score
+07,7B,HarmBench val,Baseline,80,41,1,38,0.5125,0.0125,0.475,manual corrected score; blank corrected cells fallback to original score
+07,7B,HarmBench val,Hard-Swish all layers,80,21,1,58,0.2625,0.0125,0.725,manual corrected score; blank corrected cells fallback to original score
+08,3B,AdvBench,Baseline,520,512,0,8,0.9846153846153847,0.0,0.015384615384615385,screen_v5_2026-10-29 automatic candidate score; not full manual final label
+08,3B,AdvBench,Hard-Swish all layers,520,451,0,69,0.8673076923076923,0.0,0.1326923076923077,screen_v5_2026-10-29 automatic candidate score; not full manual final label
+08,7B,AdvBench,Baseline,520,509,0,11,0.9788461538461538,0.0,0.021153846153846155,screen_v5_2026-10-29 automatic candidate score; not full manual final label
+08,7B,AdvBench,Hard-Swish all layers,520,367,1,152,0.7057692307692308,0.0019230769230769232,0.2923076923076923,screen_v5_2026-10-29 automatic candidate score; not full manual final label
+08,3B,HarmBench test,Baseline,320,183,0,137,0.571875,0.0,0.428125,screen_v5_2026-10-29 automatic candidate score; not full manual final label
+08,3B,HarmBench test,Hard-Swish all layers,320,85,1,234,0.265625,0.003125,0.73125,screen_v5_2026-10-29 automatic candidate score; not full manual final label
+08,7B,HarmBench test,Baseline,320,165,0,155,0.515625,0.0,0.484375,screen_v5_2026-10-29 automatic candidate score; not full manual final label
+08,7B,HarmBench test,Hard-Swish all layers,320,87,1,232,0.271875,0.003125,0.725,screen_v5_2026-10-29 automatic candidate score; not full manual final label

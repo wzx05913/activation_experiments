@@ -1,0 +1,11 @@
+{
+  "source": "PKU-Alignment/PKU-SafeRLHF:alpaca-7b:train",
+  "source_sha256": "566e0f3e525709dd931402d2cf82b6885ebd8472020a0b2c8e86e2366322f7b6",
+  "seed": 42,
+  "harmful_train_approved": 160,
+  "harmful_holdout_approved": 40,
+  "dual_safe_non_refusal_candidates": 8124,
+  "benign_train_candidates": 160,
+  "benign_holdout_candidates": 40,
+  "note": "Both safe response labels do NOT establish a benign prompt. Review every prompt and answer before export."
+}

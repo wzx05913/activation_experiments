@@ -1,0 +1,17 @@
+{
+  "source": "D:\\Desktop\\深度思考大模型安全防护\\activation_experiments\\data\\PKU-Alignment___pku-safe_rlhf\\alpaca-7b\\0.0.0\\9421ffafec3fa40a1f1a7d567b4d525079477ecb\\pku-safe_rlhf-train.arrow",
+  "source_sha256": "566e0f3e525709dd931402d2cf82b6885ebd8472020a0b2c8e86e2366322f7b6",
+  "seed": 42,
+  "train": 250,
+  "holdout": 50,
+  "eligible": {
+    "one_safe": 3589,
+    "both_safe": 10764
+  },
+  "excluded": {
+    "no_safe_response": 12689,
+    "duplicate": 349,
+    "empty": 2
+  },
+  "note": "Safe response is not a prompt harm label; inspect examples and benign balance manually"
+}

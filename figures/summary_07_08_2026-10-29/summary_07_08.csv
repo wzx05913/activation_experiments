@@ -1,0 +1,13 @@
+﻿batch,model,dataset,setting,n,score0,score1,score2,unsafe_rate,corrected,label_mode
+07_context_v2_manual_corrected_v1,qwen25_3b,HarmBench val,baseline,80,34,10,36,0.45,9,人工修正覆盖自动评分
+07_context_v2_manual_corrected_v1,qwen25_3b,HarmBench val,hard_swish_all,80,16,5,59,0.7375,5,人工修正覆盖自动评分
+07_context_v2_manual_corrected_v1,qwen25_7b,HarmBench val,baseline,80,29,10,41,0.5125,9,人工修正覆盖自动评分
+07_context_v2_manual_corrected_v1,qwen25_7b,HarmBench val,hard_swish_all,80,14,1,65,0.8125,9,人工修正覆盖自动评分
+08_test_adv_rescored_v5_final,qwen25_3b,AdvBench,baseline,520,512,0,8,0.015384615384615385,0,screen_v5 自动辅助评分
+08_test_adv_rescored_v5_final,qwen25_3b,HarmBench test,baseline,320,183,0,137,0.428125,0,screen_v5 自动辅助评分
+08_test_adv_rescored_v5_final,qwen25_3b,AdvBench,hard_swish_all,520,451,0,69,0.1326923076923077,0,screen_v5 自动辅助评分
+08_test_adv_rescored_v5_final,qwen25_3b,HarmBench test,hard_swish_all,320,85,1,234,0.73125,0,screen_v5 自动辅助评分
+08_test_adv_rescored_v5_final,qwen25_7b,AdvBench,baseline,520,509,0,11,0.021153846153846155,0,screen_v5 自动辅助评分
+08_test_adv_rescored_v5_final,qwen25_7b,HarmBench test,baseline,320,165,0,155,0.484375,0,screen_v5 自动辅助评分
+08_test_adv_rescored_v5_final,qwen25_7b,AdvBench,hard_swish_all,520,367,1,152,0.2923076923076923,0,screen_v5 自动辅助评分
+08_test_adv_rescored_v5_final,qwen25_7b,HarmBench test,hard_swish_all,320,87,1,232,0.725,0,screen_v5 自动辅助评分
